@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+
+}
+ #player2{
+    margin-left:400px;
+   margin-top: -300px;
+} 
+.container{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
