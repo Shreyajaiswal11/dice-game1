@@ -1,5 +1,7 @@
+var button = document.querySelector(".btn");
+button.addEventListener("click", start);
+function start(){
 var randomnumber1=Math.floor(Math.random() *6)+1;
-
 var randomdiceimg="dice"+randomnumber1+".png";
 
 var randomimgsource ="images/"+ randomdiceimg;
@@ -17,3 +19,4 @@ document.querySelector("h1").innerHTML="Player1 wins🏆🥇";
 else if(randomnumber2>randomnumber1)
 document.querySelector("h1").innerHTML="Player2 wins🥳🥂";
 else document.querySelector("h1").innerHTML="Draw!📍";
+}
